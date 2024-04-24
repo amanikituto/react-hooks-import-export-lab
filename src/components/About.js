@@ -1,11 +1,14 @@
 import React from "react";
+import { image } from "../data/user";
 
-function About() {
+const About = () => {
   return (
-    <div id="about">
-      <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+    <div>
+      <h1>About Me</h1>
+      <img src={image} alt="A photo of me" />
+      <p>I am a software engineer with a passion for building beautiful and user-friendly applications.</p>
     </div>
   );
-}
+};
+
+export default About;
